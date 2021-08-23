@@ -28,6 +28,6 @@ mongoose.connect(
 app.use("/", router);
 app.use("/user",authRouter);
 
-app.listen(process.env.PORT || 8080, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
     console.log("Server Running at 8080");
 })
